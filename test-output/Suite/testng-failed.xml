@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestChrome(failed)">
+    <parameter name="node" value="http://localhost:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNG_Package.TestSeleniumGrid">
+        <methods>
+          <include name="testSeleniumGrid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG_Package.TestSeleniumGrid -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFirefox(failed)">
+    <parameter name="node" value="http://localhost:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestNG_Package.TestSeleniumGrid">
+        <methods>
+          <include name="testSeleniumGrid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG_Package.TestSeleniumGrid -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

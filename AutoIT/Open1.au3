@@ -1,0 +1,5 @@
+WinActivate("open")
+Sleep(2000)
+ControlFocus("open","","[CLASS:DirectUIHWND; INSTANCE:2]")
+ControlSetText("open","","[CLASS:Edit; INSTANCE:1]","C:\Users\Anup\Desktop\asd.txt")
+ControlClick("open","","[CLASS:Button; INSTANCE:1]")
